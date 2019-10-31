@@ -9,3 +9,17 @@
   float: left;
   border-radius: 6px;
 }
+
+.about-me {
+  color: darkslategrey;
+  text-align: right;
+  border-radius: 6px;
+}
+
+.container .about-me {
+  background-color: lightgrey;
+}
+
+li {
+  list-style: none;
+}
