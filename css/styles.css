@@ -14,12 +14,39 @@
   color: darkslategrey;
   text-align: right;
   border-radius: 6px;
+  background-color: lightgrey;
 }
 
-.container .about-me {
-  background-color: lightgrey;
+.about-me > p, li {
+  font-size: 1.5rem;
 }
 
 li {
   list-style: none;
+}
+
+h4, h2 {
+  font-weight: bold;
+}
+
+.panel-heading {
+  background-color: darkseagreen;
+  color: white;
+}
+
+.panel-body {
+  color: darkslategray;
+}
+
+.well {
+  background-color: teal;
+  color: whitesmoke;
+}
+
+.github > h2 {
+  background-color: darkslategray;
+  color: lightgrey;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
 }
