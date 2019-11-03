@@ -17,6 +17,11 @@
   background-color: lightgrey;
 }
 
+.read {
+  color: teal;
+  font-weight: bold;
+}
+
 .about-me > p, li {
   font-size: 1.5rem;
 }
@@ -25,7 +30,7 @@ li {
   list-style: none;
 }
 
-h4, h2 {
+h3, h2 {
   font-weight: bold;
 }
 
@@ -38,15 +43,19 @@ h4, h2 {
   color: darkslategray;
 }
 
+.github > h2 {
+  background-color: darkslategray;
+  color: lightgrey;
+  border-radius: 6px;
+  padding: 12px;
+  text-align: center;
+}
+
 .well {
   background-color: teal;
   color: whitesmoke;
 }
 
-.github > h2 {
-  background-color: darkslategray;
-  color: lightgrey;
-  border-radius: 6px;
-  padding: 10px;
-  text-align: center;
+.well > a {
+  color: whitesmoke;
 }
