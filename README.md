@@ -15,7 +15,7 @@ links to my GitHub repos that store my projects._
 * _Make sure a web browser is installed on your device._
 * _For links to work, you need an internet connection._
 * _Open index.html to view the homepage._
-* _Or, go to ericamcconnaughey.github.io/portfolio to see the live site._
+* _Or, go to ericamcconnaughey.github.io/portfolio to view live site._
 
 ## Known Bugs
 
