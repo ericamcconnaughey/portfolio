@@ -1,29 +1,33 @@
+p, li {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.7rem;
+}
+
 .jumbotron {
   text-align: center;
   background-color: teal;
   color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .selfie {
   height: 200px;
-  float: left;
+  float: right;
   border-radius: 6px;
+  margin: 10px;
 }
 
 .about-me {
   color: darkslategrey;
-  text-align: right;
+  text-align: left;
   border-radius: 6px;
   background-color: lightgrey;
+  width: 100%;
 }
 
 .read {
   color: teal;
   font-weight: bold;
-}
-
-.about-me > p, li {
-  font-size: 1.5rem;
 }
 
 li {
@@ -32,10 +36,11 @@ li {
 
 h3, h2 {
   font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .panel-heading {
-  background-color: darkseagreen;
+  background-color: rgb(103, 155, 103);
   color: white;
 }
 
@@ -43,12 +48,13 @@ h3, h2 {
   color: darkslategray;
 }
 
-.github > h2 {
+.github h2 {
   background-color: darkslategray;
   color: lightgrey;
   border-radius: 6px;
   padding: 12px;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .well {
@@ -56,6 +62,6 @@ h3, h2 {
   color: whitesmoke;
 }
 
-.well > a {
+.well a {
   color: whitesmoke;
 }
