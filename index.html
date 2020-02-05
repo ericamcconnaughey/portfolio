@@ -42,25 +42,25 @@
     <br>
     <br>
 
-      <div class="row">
-        <div class="col-12 col-md-4">
-          <div class="card">
+    <div class="container">
+      <div class="row card-deck">
+        <div class="col-12 col-lg-4">
+          <div class="card skills">
             <div class="card-header">
               <h3>Languages</h3>
             </div>
-            <div class="card-body">
+            <div class="card-body h-100">
               <ul>
                 <li>CSS</li>
                 <li>HTML</li>
                 <li>JavaScript</li>
-                <li></li>
               </ul>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-4">
-          <div class="card">
+        <div class="col-12 col-lg-4">
+          <div class="card skills">
             <div class="card-header">
               <h3>Frameworks</h3>
             </div>
@@ -75,8 +75,8 @@
           </div>
         </div>
 
-        <div class="col-12 col-md-4">
-          <div class="card">
+        <div class="col-12 col-lg-4">
+          <div class="card skills">
             <div class="card-header">
               <h3>Skillset</h3>
             </div>
@@ -91,71 +91,90 @@
           </div>
         </div>
       </div>
+    </div>
+      
+
+    <br />
+    <br />
     
-
-    <div class="panel panel-heading">
-      <h3>Education</h3>
-    </div>
-    <div class="panel panel-body">
-      <ul>
-        <li>Full-Stack Bootcamp -- Nov. 2019 - Apr. 2020 -- <em>NuCamp</em></li>
-        <li>Intro to Programming -- Fall 2019 -- <em>Epicodus</em></li>
-        <li>Master's in Gifted Education -- 2016 -- <em>Drury University, Springfield, MO</em></li>
-        <li>Bachelor's in Elementary Education -- 2014 -- <em>Drury University, Springfield, MO</em></li>
-      </ul>
-    </div>
-
-    <div class="panel panel-heading">
-      <h3>Work Experience</h3>
-    </div>
-    <div class="panel panel-body">
-      <ol>
-        <li>Gifted Educator -- 2014-2019 -- <em>Phelps Center for Gifted Education</em></li>
-        <li>Substitute Teacher -- 2013-2014 -- <em>Springfield Public Schools</em></li>
-        <li>Circulation Assistant -- 2011-2013 -- <em>Olin Library, Drury University</em></li>
-      </ol>
+    
+    <div class="card">
+      <div class="card-header history">
+        <h3>Education</h3>
+      </div>
+      <div class="card-body history">
+        <ul>
+          <li>Full-Stack Bootcamp -- Nov. 2019 - Apr. 2020 -- <em>NuCamp</em></li>
+          <li>Intro to Programming -- Fall 2019 -- <em>Epicodus</em></li>
+          <li>Master's in Gifted Education -- 2016 -- <em>Drury University, Springfield, MO</em></li>
+          <li>Bachelor's in Elementary Education -- 2014 -- <em>Drury University, Springfield, MO</em></li>
+        </ul>
+      </div>
     </div>
 
-    <div class="panel panel-heading">
-      <h3>Personal Stuff</h3>
+    <br />
+
+    <div class="card">
+      <div class="card-header history">
+        <h3>Work Experience</h3>
+      </div>
+      <div class="card-body history">
+        <ol>
+          <li>Portfolio Evaluator -- 2020 -- <em>Pearson Education</em></li>
+          <li>Gifted Educator -- 2014-2019 -- <em>Phelps Center for Gifted Education</em></li>
+          <li>Circulation Assistant -- 2011-2014 -- <em>Olin Library, Drury University</em></li>
+        </ol>
+      </div>
     </div>
-    <div class="panel panel-body">
-      <ul>
-        <li>I am married to <a href="http://www.grantmcconnaughey.com/" target="_blank">Grant McConnaughey</a>. He's pretty cool, I guess.</li>
-        <li>We recently moved to Wisconsin -- nine hours from where we both grew up. We did it for the cheese and beer.</li>
-        <li>We have a schnauzer-terrier mix named Mia. She is cute, but ornery.</li>
-        <li>My favorite things include: paperback books, dark chocolate, yoga,
-          baking, personality quizzes, ice cream, traveling, cheese, and psychology.</li>
-      </ul>
+
+    <br />
+
+    <div class="card">
+      <div class="card-header history">
+        <h3>Personal Stuff</h3>
+      </div>
+      <div class="card-body history">
+        <ul>
+          <li>I am married to <a href="http://www.grantmcconnaughey.com/" target="_blank">Grant McConnaughey</a>. He's pretty cool, I guess.</li>
+          <li>We recently moved to Wisconsin -- nine hours from where we both grew up. We did it for the cheese and beer.</li>
+          <li>We have a schnauzer-terrier mix named Mia. She is cute, but ornery.</li>
+          <li>My favorite things include: paperback books, dark chocolate, yoga,
+            baking, personality quizzes, ice cream, traveling, cheese, and psychology.</li>
+        </ul>
+      </div>
     </div>
-  </div>
+  
+  
+  <br />
+  <br />
 
   <div class="container github">
     <h2>GitHub Projects</h2>
-    <div class="row">
+    <br />
+    <div class="card-group">
       <div class="col-md-4">
-        <div class="well">
+        <div class="card project">
           <a href="https://github.com/ericamcconnaughey/cool-beans">
             <h4>Cool Beans Cafe</h4>
             <p>Built with HTML, CSS, and Bootstrap. Demonstrates my ability to
-              redesign an existing website to make it visually appealing, responsive, and more modern.</p>
+              redesign a website to make it more visually appealing and responsive.</p>
           </a>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="well">
+        <div class="card project">
           <a href="https://github.com/ericamcconnaughey/react-cool-beans">
             <h4>Cool Beans Cafe 2.0</h4>
-            <p>Built with React.js, CSS, and Reactstrap. Rebuilt my Cool Beans project with React.</p>
+            <p>Built with React, CSS, and Reactstrap. I rebuilt the Cool Beans cafe 
+              website with React.js. Utilizes components, state, props, and more.</p>
           </a>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="well">
+        <div class="card project">
           <a href="https://github.com/ericamcconnaughey/nucamp-bootstrap">
             <h4>NuCampsite</h4>
-            <p>Built with HTML, CSS, and Bootstrap. A mock camping website which 
-              demonstrates my skill in utilizing various
+            <p>Built with HTML, CSS, and Bootstrap. Demonstrates my skill in utilizing various
               Bootstrap components to style a web app.
             </p>
           </a>
@@ -163,17 +182,19 @@
       </div>
     </div>
 
-    <div class="row">
+    <br />
+
+    <div class="card-group">
       <div class="col-md-4">
-        <div class="well">
+        <div class="card project">
           <a href="https://github.com/ericamcconnaughey/nucamp-react">
             <h4>NuCampsite 2.0</h4>
-            <p>Built with CSS, React.js, and Reactstrap. Rebuilt NuCampsite using React.</p>
+            <p>Built with CSS, React, and Reactstrap. I rebuilt the NuCampsite project using React.</p>
           </a>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="well">
+        <div class="card project">
           <a href="https://github.com/ericamcconnaughey/looping-project">
             <h4>JS Loops</h4>
             <p>Built with HTML, jQuery, Bootstrap and CSS. Demonstrates my ability to 
@@ -183,7 +204,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="well">
+        <div class="card project">
           <a href="#">
             <h4><em>Coming Soon</em></h4>
             <p>
@@ -193,6 +214,10 @@
       </div>
     </div>
   </div>
+</div>
+
+  <br />
+  <br />
 
   
   <div class="footer">

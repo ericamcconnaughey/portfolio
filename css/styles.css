@@ -4,12 +4,7 @@ body {
 
   p, li {
   font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 1.7rem;
-}
-
-a {
-  color: #027272;
-  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .jumbotron {
@@ -18,6 +13,7 @@ a {
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
+  border-radius: 0;
 }
 
 .selfie {
@@ -33,6 +29,7 @@ a {
   border-radius: 6px;
   background-color: rgb(108, 168, 141, 0.7);
   width: 100%;
+  padding: 20px;
 }
 
 .read {
@@ -47,56 +44,63 @@ h3, h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
-.card {
-  background-color: rgb(2, 96, 96, 0.7);
+.skills {
+  background-color: #1d4644;
   color: #fff;
-  border-radius: 6px;
-  padding: 2px;
-  padding-left: 10px;
-  margin-bottom: 25px;
 }
 
-.card li {
+.skills li {
   list-style: none;
 }
 
-.card h3 {
+.skills h3 {
   text-align: center;
 }
 
-.panel-heading {
-  background-color: rgb(27, 65, 63);
-  color: #fff;
+.history.card {
+  margin: 10px;
 }
 
-.panel-body {
+.history.card-header {
+  background-color: rgb(2, 96, 96);
+  color: #fff;
+  padding-top: 17px;
+}
+
+.history.card-body {
   color: #1b413f;
-  background-color: rgb(27, 65, 63, 0.2);
+  background-color: rgb(186, 211, 179);
+}
+
+.history a {
+  color: #027272;
+  font-weight: bold;
 }
 
 .github h2 {
   background-color: #193841;
   color: #fff;
-  border-radius: 6px;
+  border-radius: 3px;
   padding: 12px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
-.well {
+.project {
   background-color: rgb(2, 96, 96);
   color: #fff;
+  padding: 10px;
 }
 
-.well a {
+.project a {
   color: #fff;
 }
 
-.well a:hover {
+.project a:hover {
   text-decoration: none;
 }
 
-.well:hover {
+.project:hover {
   background-color: rgb(2, 96, 96, 0.85);
 }
 

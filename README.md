@@ -17,7 +17,7 @@ projects and skills. This portfolio has links to my GitHub repos that store my p
 
 ## Known Bugs
 
-_None._
+_Minor styling issue getting cards to be the same height._
 
 ## Support and Contact Details
 
@@ -25,7 +25,7 @@ _Contact Erica McConnaughey at ericamcconnaughey@gmail.com with any questions, b
 
 ## Technologies Used
 
-_HTML and CSS, including Bootstrap._
+_HTML and CSS, including Bootstrap 4.0._
 
 ### License
 
