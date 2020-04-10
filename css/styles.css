@@ -40,6 +40,10 @@ h3, h2, h4, h5 {
   color: rgb(229, 244, 215, 0.75);
 }
 
+.bio {
+  font-size: 1.3rem;
+}
+
 .skills {
   background-color: #1d4644;
   color: #e5f4d7;
