@@ -7,10 +7,14 @@ body {
   font-size: 1.2rem;
 }
 
+h3, h2, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .jumbotron {
   text-align: center;
   background-color: #026060;
-  color: #fff;
+  color: #e5f4d7;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
   border-radius: 0;
@@ -32,54 +36,26 @@ body {
   padding: 20px;
 }
 
-.read {
-  font-weight: bold;
-}
-
-li {
-  list-style: square;
-}
-
-h3, h2 {
-  font-family: 'Montserrat', sans-serif;
+.about-me a {
+  color: rgb(229, 244, 215, 0.75);
 }
 
 .skills {
   background-color: #1d4644;
-  color: #fff;
+  color: #e5f4d7;
 }
 
 .skills li {
   list-style: none;
 }
 
-.skills h3 {
+.skills h3, .skills h5 {
   text-align: center;
 }
 
-.history.card {
-  margin: 10px;
-}
-
-.history.card-header {
-  background-color: rgb(2, 96, 96);
-  color: #fff;
-  padding-top: 17px;
-}
-
-.history.card-body {
-  color: #1b413f;
-  background-color: rgb(186, 211, 179);
-}
-
-.history a {
-  color: #027272;
-  font-weight: bold;
-}
-
 .github h2 {
-  background-color: #193841;
-  color: #fff;
+  background-color: rgb(2, 96, 96);
+  color: #e5f4d7;
   border-radius: 3px;
   padding: 12px;
   text-align: center;
@@ -87,13 +63,13 @@ h3, h2 {
 }
 
 .project {
-  background-color: rgb(2, 96, 96);
-  color: #fff;
+  background-color: rgb(186, 211, 179);
+  color: #1b413f;
   padding: 10px;
 }
 
 .project a {
-  color: #fff;
+  color: #1b413f;
 }
 
 .project a:hover {
@@ -101,11 +77,31 @@ h3, h2 {
 }
 
 .project:hover {
-  background-color: rgb(2, 96, 96, 0.85);
+  background-color: rgba(108, 168, 141, 0.7);
+}
+
+.history.card {
+  margin: 10px;
+}
+
+.history.card-header {
+  background-color: #193841;
+  color: #e5f4d7;
+  padding-top: 17px;
+}
+
+.history.card-body {
+  color: #e5f4d7;
+  background-color: rgb(2, 96, 96);
+}
+
+.history a {
+  color: rgb(137, 209, 177);
+  font-weight: bold;
 }
 
 .footer {
-  background-color: rgb(108, 168, 141, 0.7);
+  background-color: rgba(108, 168, 141, 0.7);
   width: 100%;
   padding: 20px 0px;
   text-align: center;
