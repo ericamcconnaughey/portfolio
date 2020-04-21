@@ -1,16 +1,31 @@
+/* UNIVERSAL STYLES */
 body {
   background-color: #e5f4d7;
 }
 
-  p, li {
+  p, li, a {
   font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 h3, h2, h4, h5 {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* MEDIA QUERIES */
+@media (max-width: 520px) {
+  .selfie {
+    justify-self: center;
+  }
+}
+
+@media (min-width: 521px) {
+  .selfie {
+    float: right;
+  }
+}
+
+/* HEADER */
 .jumbotron {
   text-align: center;
   background-color: #026060;
@@ -20,15 +35,15 @@ h3, h2, h4, h5 {
   border-radius: 0;
 }
 
+/* ABOUT ME SECTION */
 .selfie {
   height: 200px;
-  float: right;
   border-radius: 6px;
   margin: 10px;
 }
 
 .about-me {
-  color: #014b4b;
+  color: #1d4644;
   text-align: left;
   border-radius: 6px;
   background-color: rgb(108, 168, 141, 0.7);
@@ -37,16 +52,20 @@ h3, h2, h4, h5 {
 }
 
 .about-me a {
-  color: rgb(229, 244, 215, 0.75);
+  color: rgb(2, 119, 119);
 }
 
-.bio {
-  font-size: 1.3rem;
+/* SKILLSET SECTION */
+.skillset {
+  padding: 0;
+  width: 100%;
 }
 
 .skills {
   background-color: #1d4644;
   color: #e5f4d7;
+  padding: 0;
+  margin: 0;
 }
 
 .skills li {
@@ -57,6 +76,7 @@ h3, h2, h4, h5 {
   text-align: center;
 }
 
+/* PROJECT SECTION */
 .github h2 {
   background-color: rgb(2, 96, 96);
   color: #e5f4d7;
@@ -84,6 +104,8 @@ h3, h2, h4, h5 {
   background-color: rgba(108, 168, 141, 0.7);
 }
 
+
+/* HISTORY/BACKGROUND SECTION */
 .history.card {
   margin: 10px;
 }
@@ -104,6 +126,7 @@ h3, h2, h4, h5 {
   font-weight: bold;
 }
 
+/* FOOTER */
 .footer {
   background-color: rgba(108, 168, 141, 0.7);
   width: 100%;
