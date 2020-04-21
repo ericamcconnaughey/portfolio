@@ -29,7 +29,7 @@ h3, h2, h4, h5 {
 .jumbotron {
   text-align: center;
   background-color: #026060;
-  color: #e5f4d7;
+  color: #faeeab;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
   border-radius: 0;
@@ -72,16 +72,18 @@ h3, h2, h4, h5 {
   list-style: none;
 }
 
-.skills h3, .skills h5 {
+.skills h5 {
   text-align: center;
+  color: #eade9c;
 }
 
 /* PROJECT SECTION */
 .github h2 {
   background-color: rgb(2, 96, 96);
-  color: #e5f4d7;
+  color: #faeeab;
   border-radius: 3px;
   padding: 12px;
+  width: 100%;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
@@ -112,7 +114,7 @@ h3, h2, h4, h5 {
 
 .history.card-header {
   background-color: #193841;
-  color: #e5f4d7;
+  color: #faeeab;
   padding-top: 17px;
 }
 
