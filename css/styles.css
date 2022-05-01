@@ -1,100 +1,108 @@
-/* UNIVERSAL STYLES */
+/* GLOBAL STYLES */
 body {
-  background-color: #e5f4d7;
+  background-color: #e9f4df;
 }
 
-  p, li, a {
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 1.3rem;
+p, li, a {
+  font-family: 'Lora', serif;
+  font-size: 1.1rem;
+  font-weight: 300;
 }
 
-h3, h2, h4, h5 {
+a {
+  color: rgb(2, 129, 129);
+  font-weight: 500;
+}
+
+a:hover {
+  color: rgb(2, 96, 96);
+}
+   
+h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
 }
 
-/* MEDIA QUERIES */
-@media (max-width: 520px) {
-  .selfie {
-    justify-self: center;
-  }
+h2 {
+  text-align: center;
+  margin: 4rem 0 1rem 0;
+  font-weight: 200;
+  font-size: 2.5rem;
+  color: #026060;
 }
 
-@media (min-width: 521px) {
-  .selfie {
-    float: right;
-  }
+.card {
+  padding: 1.5rem 1rem 1rem 1rem;
+  margin: 1rem;
 }
 
-/* HEADER */
+
+
+/* PAGE HEADER */
 .jumbotron {
   text-align: center;
   background-color: #026060;
-  color: #faeeab;
-  font-family: 'Montserrat', sans-serif;
+  color: #e9f4df;
   width: 100%;
   border-radius: 0;
 }
 
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  letter-spacing: .25rem;
+  font-size: 3.75rem;
+ }
+
+ .jumbotron span {
+   /* font-family: 'PT Serif', serif; */
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.3rem;
+   font-weight: 300;
+   letter-spacing: .1rem;
+   color: #faeeab;
+ }
+
+
+
 /* ABOUT ME SECTION */
-.selfie {
+
+/* .selfie {
   height: 200px;
   border-radius: 6px;
   margin: 10px;
-}
+} */
 
-.about-me {
+.about-me .card {
   color: #1d4644;
   text-align: left;
   border-radius: 6px;
-  background-color: rgb(108, 168, 141, 0.7);
-  width: 100%;
-  padding: 20px;
-}
-
-.about-me a {
-  color: rgb(2, 119, 119);
-}
-
-/* SKILLSET SECTION */
-.skillset {
-  padding: 0;
-  width: 100%;
-}
-
-.skills {
-  background-color: #1d4644;
-  color: #e5f4d7;
-  padding: 0;
+  background-color: rgb(186, 211, 179);
+  padding: 1.5rem 2rem;
   margin: 0;
 }
 
-.skills li {
-  list-style: none;
+
+
+/* SKILLSET SECTION */
+.skills {
+  background-color: rgb(108, 168, 141, 0.7);
+  color: #1b413f;
 }
 
-.skills h5 {
+.skills h3 {
   text-align: center;
-  color: #eade9c;
 }
+
+
 
 /* PROJECT SECTION */
-.github h2 {
-  background-color: rgb(2, 96, 96);
-  color: #faeeab;
-  border-radius: 3px;
-  padding: 12px;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-}
-
 .project {
-  background-color: rgb(186, 211, 179);
-  color: #1b413f;
-  padding: 10px;
+  background-color: rgb(2, 96, 96);
 }
 
 .project a {
-  color: #1b413f;
+  color: #e5f4d7;
 }
 
 .project a:hover {
@@ -106,26 +114,39 @@ h3, h2, h4, h5 {
 }
 
 
-/* HISTORY/BACKGROUND SECTION */
-.history.card {
-  margin: 10px;
-}
 
+/* BACKGROUND SECTION */
 .history.card-header {
-  background-color: #193841;
+  background-color: #1d4644;
+  /* background-color: rgb(186, 211, 179); */
   color: #faeeab;
   padding-top: 17px;
 }
 
 .history.card-body {
   color: #e5f4d7;
-  background-color: rgb(2, 96, 96);
+  background-color: #193841;
 }
 
 .history a {
   color: rgb(137, 209, 177);
-  font-weight: bold;
 }
+
+
+
+/* CONTACT ME SECTION */
+.contact-links {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.contact-links a {
+  font-family: "Montserrat", sans-serif;
+}
+
+
 
 /* FOOTER */
 .footer {
@@ -135,4 +156,22 @@ h3, h2, h4, h5 {
   text-align: center;
   color: #193841;
   font-family: 'Montserrat', sans-serif ;
+}
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 720px) {
+  /* .selfie {
+    justify-self: center;
+  } */
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 521px) {
+  /* .selfie {
+    float: right;
+  } */
 }
