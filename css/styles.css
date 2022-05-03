@@ -26,14 +26,22 @@ h2, h3, h4, h5 {
 h2 {
   text-align: center;
   margin: 4rem 0 1rem 0;
-  font-weight: 200;
-  font-size: 2.5rem;
+  /* responsive font sizes */
+  font-size: clamp(2rem, 4vw, 2.5rem); 
   color: #026060;
+}
+
+h3 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin-bottom: .75rem;
 }
 
 .card {
   padding: 1.5rem 1rem 1rem 1rem;
-  margin: 1rem;
+  margin: 1rem .5rem;
+  border: 0;
+  border-radius: 1.15rem;
+  box-shadow: 0 .4rem 1rem rgba(0,0,0,.15)
 }
 
 
@@ -51,7 +59,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   letter-spacing: .25rem;
-  font-size: 3.75rem;
+  font-size: clamp(2.5rem, 5vw, 3.75rem);
  }
 
  .jumbotron span {
@@ -65,7 +73,7 @@ h1 {
 
 
 
-/* ABOUT ME SECTION */
+/* INTRO SECTION */
 
 /* .selfie {
   height: 200px;
@@ -73,20 +81,19 @@ h1 {
   margin: 10px;
 } */
 
-.about-me .card {
+.intro .card {
   color: #1d4644;
   text-align: left;
-  border-radius: 6px;
-  background-color: rgb(186, 211, 179);
+  background-color: rgb(190, 217, 182);
   padding: 1.5rem 2rem;
   margin: 0;
 }
 
 
 
-/* SKILLSET SECTION */
+/* SKILLS SECTION */
 .skills {
-  background-color: rgb(108, 168, 141, 0.7);
+  background-color: rgb(130, 190, 163);
   color: #1b413f;
 }
 
@@ -98,7 +105,8 @@ h1 {
 
 /* PROJECT SECTION */
 .project {
-  background-color: rgb(2, 96, 96);
+  background-color: rgb(38, 127, 127);
+
 }
 
 .project a {
@@ -110,36 +118,58 @@ h1 {
 }
 
 .project:hover {
-  background-color: rgba(108, 168, 141, 0.7);
+  background-color: rgb(1, 79, 79);
+  transform: translateY(-4px);
+  box-shadow: 0 .4rem .8rem rgba(0,0,0,.2);
+  transition: all .4s ease;
 }
 
 
 
 /* BACKGROUND SECTION */
-.history.card-header {
-  background-color: #1d4644;
-  /* background-color: rgb(186, 211, 179); */
-  color: #faeeab;
-  padding-top: 17px;
+.history {
+  background-color: rgb(2, 85, 85);
+  color: #e5f4d7;
 }
 
-.history.card-body {
-  color: #e5f4d7;
-  background-color: #193841;
+.history h3 {
+  color: #faeeab;
+  
 }
 
 .history a {
-  color: rgb(137, 209, 177);
+  color: rgb(146, 223, 188);
+}
+
+.history a:hover {
+  color: rgb(100, 180, 144);
 }
 
 
+/* FUN SECTION */
+.personal .card {
+  background-color: #1d414c;
+  color: #e5f4d7;
+}
+
+.personal a {
+  color: rgb(137, 209, 177);
+}
+
+.personal a:hover {
+  color: rgb(94, 169, 135);
+}
 
 /* CONTACT ME SECTION */
+.contact {
+  margin-bottom: 4rem; 
+}
+
 .contact-links {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .contact-links a {
@@ -152,7 +182,7 @@ h1 {
 .footer {
   background-color: rgba(108, 168, 141, 0.7);
   width: 100%;
-  padding: 20px 0px;
+  padding: 2rem 0;
   text-align: center;
   color: #193841;
   font-family: 'Montserrat', sans-serif ;
@@ -161,13 +191,10 @@ h1 {
 
 
 /* MEDIA QUERIES */
-@media (max-width: 720px) {
+@media (max-width: 520px) {
   /* .selfie {
     justify-self: center;
   } */
-  h1 {
-    font-size: 2.5rem;
-  }
 }
 
 @media (min-width: 521px) {
