@@ -3,10 +3,21 @@ body {
   background-color: #e9f4df;
 }
 
+@media  (min-width: 1200px)  {
+  .container {
+    width: 70vw;
+  }
+}
+
+
 p, li, a {
   font-family: 'Lora', serif;
   font-size: 1.1rem;
   font-weight: 300;
+}
+
+ul {
+  padding-inline-start: 1rem;
 }
 
 a {
@@ -37,12 +48,19 @@ h3 {
 }
 
 .card {
-  padding: 1.5rem 1rem 1rem 1rem;
-  margin: 1rem .5rem;
+  padding: 1.5rem 2rem;
+  /* margin: 1rem .5rem; */
   border: 0;
   border-radius: 1.15rem;
-  box-shadow: 0 .4rem 1rem rgba(0,0,0,.15)
+  box-shadow: 0 .4rem 1rem rgba(0,0,0,.15);
+  height: 100%;
+  overflow: hidden;
 }
+
+.wide > .card {
+  padding: 1.5rem 3rem;
+}
+
 
 
 
@@ -83,10 +101,7 @@ h1 {
 
 .intro .card {
   color: #1d4644;
-  text-align: left;
   background-color: rgb(190, 217, 182);
-  padding: 1.5rem 2rem;
-  margin: 0;
 }
 
 
@@ -95,10 +110,6 @@ h1 {
 .skills {
   background-color: rgb(130, 190, 163);
   color: #1b413f;
-}
-
-.skills h3 {
-  text-align: center;
 }
 
 
